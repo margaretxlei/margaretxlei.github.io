@@ -2,4 +2,14 @@
 title: "About"
 ---
 
-About this site
+## Background
+
+I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests.
+
+## Currently
+
+I am studying data science and will eventually study computational linguistics to hopefully combine linguistics and problem solving in a technical role.
+
+## Hobbies & interests
+
+In my free time, I enjoy discovering new foods and K-pop music and dance. My most recent hyperfixation is nail care and enhancements.

@@ -2,15 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Margaret’s website",
+    "title": "Margaret Lei",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests."
+  },
+  {
+    "objectID": "about.html#currently",
+    "href": "about.html#currently",
+    "title": "About",
+    "section": "Currently",
+    "text": "Currently\nI am studying data science and will eventually study computational linguistics to hopefully combine linguistics and problem solving in a technical role."
+  },
+  {
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "About",
+    "section": "Hobbies & interests",
+    "text": "Hobbies & interests\nIn my free time, I enjoy discovering new foods and K-pop music and dance. My most recent hyperfixation is nail care and enhancements."
   }
 ]

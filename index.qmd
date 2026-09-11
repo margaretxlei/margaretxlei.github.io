@@ -1,7 +1,8 @@
 ---
-title: "Margaret's website"
+title: "Margaret Lei"
 ---
 
-This is a Quarto website.
+![](images/20230223_135327.jpg){width=400px}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Hello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing. 
