@@ -2,7 +2,7 @@
 title: "Margaret Lei"
 ---
 
-![](images/20230223_135327.jpg){width=400px}
+![Photo taken by me.](images/20230223_135327.jpg){width=400px}
 
 
 Hello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing. 

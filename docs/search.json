@@ -1,24 +1,52 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Margaret Lei",
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
     "section": "",
-    "text": "Hello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing."
+    "text": "How I’m feeling. Photo taken by me."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html#orientation",
+    "href": "posts/first-weeks/index.html#orientation",
+    "title": "My first weeks in MDS",
+    "section": "Orientation",
+    "text": "Orientation\nOrientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html#the-first-week",
+    "href": "posts/first-weeks/index.html#the-first-week",
+    "title": "My first weeks in MDS",
+    "section": "The First Week",
+    "text": "The First Week\nThe first week was an uphill battle. I spent a lot of time in the labs and at home installing the software stack not once, but twice after I realized my Ubuntu setup wouldn’t work. This took away precious time from actually completing assignments. I also had to learn where all my classes were and how to use the software and do my assignments. However, it has been fun getting to know my classmates and figuring stuff out with them."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html#how-im-feeling-now",
+    "href": "posts/first-weeks/index.html#how-im-feeling-now",
+    "title": "My first weeks in MDS",
+    "section": "How I’m Feeling Now",
+    "text": "How I’m Feeling Now\nI’m tired! I have woken up before my alarm multiple times and not been able to go back to sleep because my mind automatically starts racing, thinking about due dates and how much I still need to do. The first week had also given me a false sense of security about commuting, because now that all other students have gone back to school, my commute time has increased by 30%. Hopefully these are growing pains. I am enjoying what I am learning."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nMargaret Lei\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests."
+    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests. I want the instructors to know that I will be judging the quality of all test questions (but willing to give advice on how to improve it)."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About",
     "section": "",
-    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests."
+    "text": "I was born and raised in British Columbia, Canada. I graduated with a BA in Linguistics and explored many careers applying linguistics, such as editing and ESL teaching. Shortly after graduation, I started working at an assessment company on the team developing content for English proficiency tests. I want the instructors to know that I will be judging the quality of all test questions (but willing to give advice on how to improve it)."
   },
   {
     "objectID": "about.html#currently",
@@ -33,5 +61,12 @@
     "title": "About",
     "section": "Hobbies & interests",
     "text": "Hobbies & interests\nIn my free time, I enjoy discovering new foods and K-pop music and dance. My most recent hyperfixation is nail care and enhancements."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Margaret Lei",
+    "section": "",
+    "text": "Photo taken by me.\n\n\nHello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing."
   }
 ]

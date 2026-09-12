@@ -1,0 +1,19 @@
+---
+title: "My first weeks in MDS"
+author: "Margaret Lei"
+date: 2026-09-11
+---
+
+![How I'm feeling. Photo taken by me.](orientation.jpg)
+
+## Orientation
+
+Orientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed. 
+
+## The First Week
+
+The first week was an uphill battle. I spent a lot of time in the labs and at home installing the software stack not once, but twice after I realized my Ubuntu setup wouldn't work. This took away precious time from actually completing assignments. I also had to learn where all my classes were and how to use the software and do my assignments. However, it has been fun getting to know my classmates and figuring stuff out with them. 
+
+## How I'm Feeling Now
+
+I'm tired! I have woken up before my alarm multiple times and not been able to go back to sleep because my mind automatically starts racing, thinking about due dates and how much I still need to do. The first week had also given me a false sense of security about commuting, because now that all other students have gone back to school, my commute time has increased by 30%. Hopefully these are growing pains. I am enjoying what I am learning.
