@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "posts/r-analysis/index.html",
+    "href": "posts/r-analysis/index.html",
+    "title": "Penguin Analysis Using R",
+    "section": "",
+    "text": "figure"
+  },
+  {
+    "objectID": "posts/r-analysis/index.html#orientation",
+    "href": "posts/r-analysis/index.html#orientation",
+    "title": "Penguin Analysis Using R",
+    "section": "Orientation",
+    "text": "Orientation\nOrientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed."
+  },
+  {
     "objectID": "posts/first-weeks/index.html",
     "href": "posts/first-weeks/index.html",
     "title": "My first weeks in MDS",
@@ -32,7 +46,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nMargaret Lei\n\n\n\n\n\nNo matching items"
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using Python\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using R\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMargaret Lei\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -68,5 +82,19 @@
     "title": "Margaret Lei",
     "section": "",
     "text": "Photo taken by me.\n\n\nHello, I am Margaret. I am a language enthusiast in Canada, with over 5 years of experience in English language assessment. Now I am currently studying to break into the tech industry via computational linguistics or natural language processing."
+  },
+  {
+    "objectID": "posts/python-analysis/index.html",
+    "href": "posts/python-analysis/index.html",
+    "title": "Penguin Analysis Using Python",
+    "section": "",
+    "text": "figure"
+  },
+  {
+    "objectID": "posts/python-analysis/index.html#orientation",
+    "href": "posts/python-analysis/index.html#orientation",
+    "title": "Penguin Analysis Using Python",
+    "section": "Orientation",
+    "text": "Orientation\nOrientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed."
   }
 ]

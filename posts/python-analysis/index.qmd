@@ -1,0 +1,11 @@
+---
+title: "Penguin Analysis Using Python"
+author: "Margaret Lei"
+date: (tbd)
+---
+
+![figure](path)
+
+## Orientation
+
+Orientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed. 

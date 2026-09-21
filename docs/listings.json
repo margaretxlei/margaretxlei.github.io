@@ -2,7 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/first-weeks/index.html"
+      "/posts/first-weeks/index.html",
+      "/posts/python-analysis/index.html",
+      "/posts/r-analysis/index.html"
     ]
   }
 ]
