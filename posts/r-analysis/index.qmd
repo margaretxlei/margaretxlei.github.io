@@ -12,6 +12,7 @@ execute:
 First, let's load in the data about the Palmer Penguins; the first 6 rows are shown below.
 
 ```{r}
+#| message: false
 library(tidyverse)
 library(palmerpenguins)
 head(penguins)
@@ -32,7 +33,7 @@ Let's find the average flipper length by species. Below, I group the data by the
 
 ```{r}
 #| label: avg_flip
-#| fig-cap: "A table showing average flipper length in mm by species"
+#| fig-cap: "A figure showing average flipper length in mm by species"
 
 avg_flip <- penguins |> 
   group_by(species) |> 
