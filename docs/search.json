@@ -7,11 +7,11 @@
     "text": "figure"
   },
   {
-    "objectID": "posts/r-analysis/index.html#orientation",
-    "href": "posts/r-analysis/index.html#orientation",
+    "objectID": "posts/r-analysis/index.html#heading",
+    "href": "posts/r-analysis/index.html#heading",
     "title": "Penguin Analysis Using R",
-    "section": "Orientation",
-    "text": "Orientation\nOrientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed."
+    "section": "Heading",
+    "text": "Heading\nPlaceholder text"
   },
   {
     "objectID": "posts/first-weeks/index.html",
@@ -46,7 +46,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using Python\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using R\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMargaret Lei\n\n\n\n\n\nNo matching items"
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using Python\n\n\n\n\n\n\n\n\nSep 1, 2026\n\n\nMargaret Lei\n\n\n\n\n\n\n\n\n\n\n\n\nPenguin Analysis Using R\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nMargaret Lei\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -88,13 +88,20 @@
     "href": "posts/python-analysis/index.html",
     "title": "Penguin Analysis Using Python",
     "section": "",
-    "text": "figure"
+    "text": "Data source:\nHorst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.\nData accessed via the palmerpenguins Python package and available by CC-0 licence."
   },
   {
-    "objectID": "posts/python-analysis/index.html#orientation",
-    "href": "posts/python-analysis/index.html#orientation",
+    "objectID": "posts/python-analysis/index.html#credits",
+    "href": "posts/python-analysis/index.html#credits",
     "title": "Penguin Analysis Using Python",
-    "section": "Orientation",
-    "text": "Orientation\nOrientation was a fun way to meet my future classmates. Some information seemed redundant, but I suppose there was no way of avoiding that. Overall I left feeling supported and welcomed."
+    "section": "",
+    "text": "Data source:\nHorst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.\nData accessed via the palmerpenguins Python package and available by CC-0 licence."
+  },
+  {
+    "objectID": "posts/python-analysis/index.html#analysis",
+    "href": "posts/python-analysis/index.html#analysis",
+    "title": "Penguin Analysis Using Python",
+    "section": "Analysis",
+    "text": "Analysis\nFirst, let’s load in the data about the Palmer Penguins; the first 6 rows are shown below.\n\nfrom palmerpenguins import load_penguins\npenguins = load_penguins()\npenguins.head()\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n\n\n\n\n\n\nHow many islands do we have data for? Below, I count the unique names in the island column, and then join them in a string.\n\nn_islands = penguins['island'].nunique()\nislands = \", \".join(penguins['island'].unique())\n\nprint(f\"{n_islands} islands: {islands}\")\n\n3 islands: Torgersen, Biscoe, Dream\n\n\n\nLet’s find the average flipper length by species. Below, I group the data by the values in the species column, and then calculate the average using the available flipper length measurements per species.\n\navg_flip = penguins.groupby(by='species').mean(numeric_only=True)[['flipper_length_mm']]\navg_flip\n\n\n\n\n\n\n\n\nflipper_length_mm\n\n\nspecies\n\n\n\n\n\nAdelie\n189.953642\n\n\nChinstrap\n195.823529\n\n\nGentoo\n217.186992\n\n\n\n\n\nA table showing average flipper length in mm by species\n\n\n\nHow about the average flipper length by species by island? I did the same thing as above, but this time also grouping by island.\n\navg_flip_per_island = penguins.groupby(by=['species', 'island']).mean(numeric_only=True)[['flipper_length_mm']]\navg_flip_per_island\n\n\n\n\n\n\n\n\n\nflipper_length_mm\n\n\nspecies\nisland\n\n\n\n\n\nAdelie\nBiscoe\n188.795455\n\n\nDream\n189.732143\n\n\nTorgersen\n191.196078\n\n\nChinstrap\nDream\n195.823529\n\n\nGentoo\nBiscoe\n217.186992\n\n\n\n\n\nA table showing average flipper length in mm by species by island\n\n\n\nIt seems Adelie penguins on the island of Torgersen have slightly longer mean flipper length. Neat!"
   }
 ]
