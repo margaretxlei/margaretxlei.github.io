@@ -1,23 +1,15 @@
 ---
 title: "Penguin Analysis Using Python"
 author: "Margaret Lei"
-date: 2026-09-
+date: 2026-09-28
 execute:
   echo: true
   warning: false
 ---
 
-## Credits
-
-Data source:\
-Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. 
-R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
-
-Data accessed via the palmerpenguins Python package and available by [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence.
-
 ## Analysis
 
-First, let's load in the data about the Palmer Penguins; the first 6 rows are shown below.
+First, let's load in the data about the Palmer Penguins; the first 5 rows are shown below.
 
 ```{python}
 from palmerpenguins import load_penguins
@@ -57,3 +49,11 @@ avg_flip_per_island
 ```
 \
 It seems Adelie penguins on the island of Torgersen have slightly longer mean flipper length. Neat!
+
+## Credits
+
+Data source:\
+Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. 
+R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
+
+Data accessed via the palmerpenguins Python package and available by [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence.

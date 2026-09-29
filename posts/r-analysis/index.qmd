@@ -1,11 +1,64 @@
 ---
 title: "Penguin Analysis Using R"
 author: "Margaret Lei"
-date: (tbd)
+date: 2026-09-28
+execute:
+  echo: true
+  warning: false
 ---
 
-![figure](path)
+## Analysis
 
-## Heading
+First, let's load in the data about the Palmer Penguins; the first 6 rows are shown below.
 
-Placeholder text 
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+head(penguins)
+```
+
+\
+How many islands do we have data for? Below, I count the unique names in the **island** column.
+
+```{r}
+#| message: false
+n_islands <- n_distinct(penguins$island)
+
+n_islands
+```
+
+\
+Let's find the average flipper length by species. Below, I group the data by the values in the **species** column, and then calculate the average using the available flipper length measurements per species.
+
+```{r}
+#| label: avg_flip
+#| fig-cap: "A table showing average flipper length in mm by species"
+
+avg_flip <- penguins |> 
+  group_by(species) |> 
+  drop_na() |> 
+  summarise(flipper_length_mm = mean(flipper_length_mm))
+plot(avg_flip)
+```
+
+\
+How about the average flipper length by species by island? I did the same thing as above, but this time also grouping by island.
+
+```{r}
+#| fig-cap: "A table showing average flipper length in mm by species by island"
+avg_flip_per_island <- penguins |> 
+  group_by(species, island) |> 
+  drop_na() |> 
+  summarise(flipper_length_mm = mean(flipper_length_mm))
+avg_flip_per_island
+```
+
+\
+It seems Adelie penguins on the island of Torgersen have slightly longer mean flipper length. Neat!
+
+## Credits
+
+Data source:\
+Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
+
+Data available by [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence.
